@@ -1,0 +1,17 @@
+.edit{
+    text-align: right;
+        margin-bottom: 30px;
+    &--Btn{
+        border: 1px solid #706f6b;
+        color: inherit;
+        background-color: transparent;
+        margin-left: 5px;
+        &:hover{
+            background-color: #42e3c8;
+          }
+    }
+    &--Input{
+        display: block;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,21 @@
+.checkbox{
+    max-width: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &--text{
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+    display: inline-block;
+  }
+  &.hide{
+    opacity: 0;
+  }
+  &.show{
+    opacity: 1;
+  }
+}
+

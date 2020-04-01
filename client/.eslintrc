@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "react/prop-types": 1,
+    "import/export": 0,
+    "space-before-function-paren": 0,
+    "no-debugger": 0,
+    "indent": 1,
+    "eol-last": 1,
+    "react/jsx-closing-bracket-location": 1
+  },
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "fetch": false,
+    "localStorage": false
+  }
+}

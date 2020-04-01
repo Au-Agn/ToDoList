@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "content": "Category 1",
+      "id": "1"
+    },
+    {
+      "content": "Category 1-1",
+      "id": "5",
+      "parentId": "1"
+    },
+    {
+      "content": "Category 2",
+      "id": "2"
+    },
+    {
+      "content": "Category 3",
+      "id": "3"
+    }
+  ],
+  "tasks": [
+    {
+      "content": "To-do-to 11",
+      "id": "1",
+      "checked": false,
+      "categoryId": "1",
+      "description": "asd"
+    },
+    {
+      "content": "To-do 12",
+      "id": "2",
+      "checked": true,
+      "categoryId": "1",
+      "description": "asd"
+    },
+    {
+      "content": "To-do 21",
+      "id": "3",
+      "checked": true,
+      "categoryId": "2",
+      "description": "asd"
+    },
+    {
+      "content": "To-do 22",
+      "id": "4",
+      "checked": true,
+      "categoryId": "2",
+      "description": "asd"
+    },
+    {
+      "content": "To-do 31",
+      "id": "5",
+      "checked": false,
+      "categoryId": "3",
+      "description": "asd"
+    },
+    {
+      "content": "To-do 32",
+      "id": "6",
+      "checked": false,
+      "categoryId": "3",
+      "description": "asd"
+    }
+  ]
+}

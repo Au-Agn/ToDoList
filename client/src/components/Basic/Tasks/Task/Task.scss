@@ -1,0 +1,19 @@
+.task {
+    border: 1px solid grey;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2px;
+      &--lastChild{
+        margin-bottom: 0;
+      }
+      &--button{
+        border: 1px solid #706f6b;
+        color: inherit;
+        background-color: transparent;
+        margin-left: 5px;
+      }
+      &:hover{
+        background-color: #42e3c8;
+      }
+  }
